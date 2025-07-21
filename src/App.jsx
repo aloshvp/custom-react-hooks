@@ -1,4 +1,5 @@
 import './App.css'
+import DebouncedInput from './components/DebouncedInput';
 import PostList from './components/PostList';
 import useWindowSize from './hooks/useWindowSize'
 
@@ -13,6 +14,8 @@ function App() {
       <p>Height:{width}</p>
 
       <PostList />
+
+      <DebouncedInput />
     </>
   )
 }
