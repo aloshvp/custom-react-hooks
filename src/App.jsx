@@ -12,9 +12,7 @@ function App() {
       <h2>Custom hook to track and update window dimensions dynamically</h2>
       <p>Width:{height}</p>
       <p>Height:{width}</p>
-
       <PostList />
-
       <DebouncedInput />
     </>
   )
