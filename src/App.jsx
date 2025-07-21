@@ -10,9 +10,11 @@ function App() {
   return (
     <>
       <h2>Custom hook to track and update window dimensions dynamically</h2>
-      <p>Width:{height}</p>
-      <p>Height:{width}</p>
+      <p>Width:{width}</p>
+      <p>Height:{height}</p>
+      <h2>Custom hook to fetch data from an api</h2>
       <PostList />
+      <h2>Custom hook to debounce user input</h2>
       <DebouncedInput />
     </>
   )
